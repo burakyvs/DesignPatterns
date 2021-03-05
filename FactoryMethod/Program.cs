@@ -33,7 +33,7 @@ namespace FactoryMethod
     }
     public abstract class Dialog
     {
-        protected abstract IButton CreateButton();
+        protected abstract IButton CreateButton(); // Factory Method.
         public void Render()
         {
             // Call the factory method to create a product object.
