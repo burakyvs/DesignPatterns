@@ -20,6 +20,8 @@ namespace Adapter
             // Use adapter as JSONData in a library that uses JSONData to work.
             AnalysticsLibrary analysticsLibrary = new AnalysticsLibrary(xMLtoJSONAdapter);
             analysticsLibrary.AnalyzeData(); // Uses JSON data.
+
+            Console.ReadLine();
         }
     }
     
