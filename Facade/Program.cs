@@ -44,13 +44,13 @@ namespace Facade
 
     public interface Codec
     {
-
+        //...
     }
     class MPEG4CompressionCodec : Codec
     {
         public MPEG4CompressionCodec()
         {
-
+            //...
         }
     }
 
@@ -58,7 +58,7 @@ namespace Facade
     {
         public OggCompressionCodec()
         {
-
+            //...
         }
     }
 
@@ -66,7 +66,7 @@ namespace Facade
     {
         public CodecFactory()
         {
-
+            //...
         }
     }
 
